@@ -5,9 +5,9 @@ class ToDoModel:
     def add_task(self, task):
         self.tasks.append(task)  # Add a task to the list
 
-#    def delete_task(self, task_index):
-#        if 0 <= task_index < len(self.tasks):
-#            del self.tasks[task_index]  # Delete the task at the specified index
+    def delete_task(self, task_index):
+        if 0 <= task_index < len(self.tasks):
+            del self.tasks[task_index]  # Delete the task at the specified index
 
     def get_tasks(self):
         return self.tasks  # Return the list of tasks
