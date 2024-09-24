@@ -18,9 +18,9 @@ class ToDoView:
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")  # Print each task with its index
 
-#    def sort_todo_list(self, tasks):
-#        sorted_tasks = sorted(tasks)  # Sort the tasks alphabetically
-#        self.print_todo_list(sorted_tasks)  # Print the sorted to-do list
+    def sort_todo_list(self, tasks):
+        sorted_tasks = sorted(tasks)  # Sort the tasks alphabetically
+        self.print_todo_list(sorted_tasks)  # Print the sorted to-do list
 
 class ToDoController:
     def __init__(self, model, view):
