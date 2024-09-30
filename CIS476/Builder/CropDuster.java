@@ -8,6 +8,7 @@ public class CropDuster extends AirplaneBuilder{
 
     public void buildPowerplant(){
         airplane.powerplant="single piston";
+        airplane.planetype = "CropDuster";
     }
 
     public void buildSeats(){
