@@ -11,7 +11,7 @@ public class Airplane {
         System.out.println("Wingspan: " + wingspan);
         System.out.println("Engine Type: " + powerplant);
         System.out.println("Number of crews eat: " + crewSeats);
-        System.out.println("Number of passenger seat: " + passengerSeats);
+        System.out.println("Number of passenger seat: " + passengerSeats + "\n");
 
     }
 
